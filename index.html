@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reliable - Бесплатный приватный Minecraft сервер</title>
+
+    <!-- SEO -->
+    <meta name="description" content="ReliableMC - приватный Minecraft сервер без доната.">
+    <meta name="keywords" content="Minecraft сервер, приватный сервер Minecraft, сервер без доната, майнкрафт 1.21, выживание, vanilla server, ReliableMC, mc-reliable.eu">
+    <meta name="robots" content="index, follow">
+
+    <!-- Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mc-reliable.eu/">
+    <meta property="og:title" content="ReliableMC — приватный Minecraft сервер без доната">
+    <meta property="og:description" content="Играй на стабильном приватном Minecraft сервере без доната. Уникальные сезонные ивенты, дружелюбное сообщество и честный геймплей. IP: mc-reliable.eu">
+    <meta property="og:image" content="https://mc-reliable.eu/api/placeholder/2025-01-31_16.57.55.png">
+
+    <!-- x -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ReliableMC - приватный Minecraft сервер без доната">
+    <meta name="twitter:description" content="Присоединяйся прямо сейчас: mc-reliable.eu">
+    <meta name="twitter:image" content="https://mc-reliable.eu/api/placeholder/2025-01-31_16.57.55.png">
+
+    <link rel="canonical" href="https://mc-reliable.eu/"/>
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "GameServer",
+      "name": "ReliableMC",
+      "url": "https://mc-reliable.eu",
+      "applicationCategory": "Game",
+      "game": {
+        "@type": "VideoGame",
+        "name": "Minecraft",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Mojang Studios"
+        }
+      },
+      "serverStatus": "Online",
+      "operatingSystem": "Cross-platform",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PL"
+      },
+      "sameAs": ["https://mc-reliable.eu/discord"]
+    }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="nav-container">
+        <nav>
+            <a href="#" class="logo">Reliable<span>MC</span></a>
+            <ul class="nav-links">
+                <li style="--i:1"><a href="#home">Главная</a></li>
+                <li style="--i:2"><a href="#server-info">О сервере</a></li>
+                <li style="--i:3"><a href="#events">События</a></li>
+                <li style="--i:4"><a href="#gallery">Галерея</a></li>
+                <li style="--i:5"><a href="https://mc-reliable.eu/discord" class="apply-btn" target="_blank"><i class="fas fa-user-plus"></i> Подать заявку</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </div>
+
+    <header id="home">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>mc-reliable.eu</h1>
+            <p>Таланты, неповторимая атмосфера и многое другое</p>
+            <div class="hero-buttons">
+                <a href="https://mc-reliable.eu/discord" class="btn btn-primary" target="_blank"><i class="fas fa-rocket"></i> Играть</a>
+                <a href="#server-info" class="btn btn-secondary"><i class="fas fa-info-circle"></i> Подробнее</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="server-info" class="section">
+        <h2 class="section-title" data-aos="fade-up">Статус сервера</h2>
+        <div class="online-check" data-aos="zoom-in">
+            <h3>Проверка статуса</h3>
+            <div class="server-status">
+                <div class="status-indicator"></div>
+                <span id="status-text">Загрузка...</span>
+            </div>
+            <div class="server-ip">IP: <strong>mc-reliable.eu</strong></div>
+            <div class="server-players">Игроки онлайн: <span id="player-count">0</span></div>
+        </div>
+        <div class="server-info" data-aos="fade-up" data-aos-delay="200">
+            <div class="info-card">
+                <i class="fas fa-user-graduate"></i>
+                <h3>Талантливые люди</h3>
+                <p>Дружелюбное сообщество игроков, гениев и не только. Локальные ивенты — это просто высший уровень.</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-server"></i>
+                <h3>Стабильность</h3>
+                <p>Сервер работает круглосуточно с 2020 года, обеспечивая стабильную игру без лагов благодаря качественному хостингу.</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-gift"></i>
+                <h3>Бесплатно</h3>
+                <p>Нет доната. Сервер является некоммерческим, а доступ к приватному серверу возможен через анкеты (авто).</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="section events">
+        <h2 class="section-title" data-aos="fade-up">События</h2>
+        <div class="event-card" data-aos="fade-right">
+            <h3>Сезонное обновление</h3>
+            <p>В рамках сезонного обновления для нашего Minecraft сервера были внесены следующие изменения, направленные на создание уникальной атмосферы и улучшение игрового опыта:</p>
+            <strong>@Vanilla</strong>
+            <ul>
+                <li><b>Скрытие информации об онлайне:</b> В списках серверов и в табе больше не отображается информация о количестве активных игроков. Это изменение реализовано для того, чтобы подчеркнуть сезонную фишку и добавить элемент неожиданности в игровой процесс. Отказ от показа онлайн-статуса также может быть полезен тем игрокам, которые предпочитают более скрытный режим игры.</li>
+                <li><b>Сохранение подсвечивания ников:</b> Несмотря на отсутствие информации об онлайне, система подсвечивания ников остаётся активной. Это позволяет игрокам легко распознавать друг друга в игре. Душноты не будет.</li>
+                <li><b>Дополнительные изменения по запросам игроков:</b> Мы продолжаем прислушиваться к пожеланиям нашего сообщества. Например, одной из новаций может стать возможность использования «настоящих зелий невидимости». Следующий опрос будет касательно доп. опций для нового сезона.</li>
+            </ul>
+            <strong>@Lore</strong>
+            <ul>
+                <li><b>Лор сервера:</b> На сервере будет реализован лор по канонам всех серверов Reliable (ft. Vanilla Network).</li>
+                <li><b>Вред лора:</b> Если в лоре появится негативное событие или что-то иное — знайте, это можно будет решить. Лор будет продуман таким образом, чтобы любое его влияние можно было либо изменить, либо полностью убрать.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2 class="section-title" data-aos="fade-up">Галерея</h2>
+        <div class="gallery" data-aos="fade-up" data-aos-delay="200">
+            <div class="gallery-item" data-index="0">
+                <img src="/api/placeholder/2023-05-30_22.40.31.png" loading="lazy" alt="Minecraft Engress Project 2020 on ReliableMC private server">
+                <div class="gallery-overlay">
+                    <h4>Проект "ПРОГРЕСС"</h4>
+                    <h5>2020 год</h5>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="1">
+                <img src="/api/placeholder/2023-05-30_22.37.46.png" loading="lazy" alt="Minecraft Engress Project 2023 on ReliableMC private server">
+                <div class="gallery-overlay">
+                    <h4>Проект "ПРОГРЕСС"</h4>
+                    <h5>2023 год</h5>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="2">
+                <img src="/api/placeholder/2022-09-14_23.09.19.png" loading="lazy" alt="Players' meeting 2023 on ReliableMC Minecraft server">
+                <div class="gallery-overlay">
+                    <h4>Встреча игроков</h4>
+                    <h5>2023 год</h5>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="3">
+                <img src="/api/placeholder/2024-09-11_11.34.43.png" loading="lazy" alt="City storage 2024 on ReliableMC — Minecraft server without donations">
+                <div class="gallery-overlay">
+                    <h4>Хранилище одного из городов</h4>
+                    <h5>2024 год</h5>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="4">
+                <img src="/api/placeholder/34343434image.png" loading="lazy" alt="Valley — independent piece of land 2024 on ReliableMC">
+                <div class="gallery-overlay">
+                    <h4>Долина - независимый кусочек земли</h4>
+                    <h5>2024 год</h5>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="5">
+                <img src="/api/placeholder/2025-01-31_16.57.55.png" loading="lazy" alt="Sakura-style base 2025 on ReliableMC, private Minecraft server">
+                <div class="gallery-overlay">
+                    <h4>База в стиле сакуры</h4>
+                    <h5>2025 год</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" id="lightbox-close">×</span>
+            <img src="" alt="">
+        </div>
+        <div class="lightbox-nav">
+            <button id="prev"><i class="fas fa-chevron-left"></i></button>
+            <button id="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Reliable<span>MC</span></div>
+            <div class="footer-links">
+                <a href="#home">Главная</a>
+                <a href="#server-info">О сервере</a>
+                <a href="#events">События</a>
+                <a href="#gallery">Галерея</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://mc-reliable.eu/discord"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+            </div>
+            <div class="copyright">© 2025 ReliableMC. Все права защищены.</div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        const SERVER_ADDRESS = 'mc-reliable.eu';
+        const API_URL        = `https://api.mcsrvstat.us/3/${SERVER_ADDRESS}`;
+
+        async function updateServerStatus() {
+            try {
+                const res  = await fetch(API_URL, { cache: 'no-cache' });
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+                const data = await res.json();
+                const online = !!data.online;
+
+                document.getElementById('status-text').textContent = online ? 'Онлайн' : 'Оффлайн';
+                document.querySelector('.status-indicator')
+                        .classList.toggle('status-online', online);
+
+                document.getElementById('player-count').textContent =
+                    online && data.players?.online ? data.players.online : 0;
+            } catch (err) {
+                console.error('Ошибка при получении статуса сервера:', err);
+                document.getElementById('status-text').textContent = 'Ошибка';
+                document.querySelector('.status-indicator')
+                        .classList.remove('status-online');
+                document.getElementById('player-count').textContent = 0;
+            }
+        }
+
+        updateServerStatus();
+        setInterval(updateServerStatus, 30000);
+    </script>
+
+    <script>
+        AOS.init({ duration: 800, once: true });
+
+        const navContainer = document.querySelector('.nav-container');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) navContainer.classList.add('nav-scrolled');
+            else navContainer.classList.remove('nav-scrolled');
+        });
+
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-active');
+            hamburger.classList.toggle('toggle');
+        });
+
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = lightbox.querySelector('img');
+        const closeBtn = document.getElementById('lightbox-close');
+        const prevBtn = document.getElementById('prev');
+        const nextBtn = document.getElementById('next');
+        let currentIndex = 0;
+
+        function showLightbox(index) {
+            currentIndex = index;
+            const img = galleryItems[index].querySelector('img');
+            lightboxImg.src = img.src;
+            lightbox.classList.add('active');
+        }
+
+        galleryItems.forEach(item => {
+            item.addEventListener('click', () => showLightbox(+item.dataset.index));
+        });
+
+        closeBtn.addEventListener('click', () => lightbox.classList.remove('active'));
+        prevBtn.addEventListener('click', () => showLightbox((currentIndex - 1 + galleryItems.length) % galleryItems.length));
+        nextBtn.addEventListener('click', () => showLightbox((currentIndex + 1) % galleryItems.length));
+
+        lightbox.addEventListener('click', e => {
+            if (e.target === lightbox) lightbox.classList.remove('active');
+        });
+    </script>
+</body>
+</html>
